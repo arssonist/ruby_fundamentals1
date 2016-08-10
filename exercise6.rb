@@ -45,6 +45,10 @@ grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
 grocery_list << "rice"
 
-grocery_list.sort.each do |x|
-  puts "* #{x}"
-end
+# grocery_list.sort.each do |x|
+#   puts "* #{x}"
+# end
+
+#Q7
+
+puts grocery_list -= ["salmon"]
