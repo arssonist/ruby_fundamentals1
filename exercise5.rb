@@ -4,8 +4,7 @@ def converter(fahrenhiet)
 p "#{fahrenhiet} farenheit is equal to #{celsius} celsius"
 end
 
-converter(100
-)
+converter(100)
 
 
   #
