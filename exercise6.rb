@@ -51,4 +51,6 @@ grocery_list << "rice"
 
 #Q7
 
-puts grocery_list -= ["salmon"]
+grocery_list -= ["salmon"]
+
+puts grocery_list
