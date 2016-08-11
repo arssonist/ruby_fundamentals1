@@ -7,12 +7,16 @@ students = {
 }
 
  #Q2
- def display_students(arg)
-arg.each do |k, v,|
-# {|k,v| puts "#{k}: #{v}"}
-     puts "#{k}: #{v}"
-end
-end
- display_students(students)
+#  def display_students(arg)
+# arg.each do |k, v,|
+# # {|k,v| puts "#{k}: #{v}"}
+#      puts "#{k}: #{v}"
+# end
+# end
+#  display_students(students)
 
 #Q3
+
+students[:cohort] = 43
+
+puts students
